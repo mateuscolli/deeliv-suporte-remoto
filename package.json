@@ -1,0 +1,36 @@
+{
+  "name": "deeliv-suporte-remoto",
+  "productName": "deeliv-suporte-remoto",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "mateuscolli",
+    "email": "mateus.colli@deeliv.app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hurdlegroup/robotjs": "^0.10.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.6.4",
+    "peerjs": "^1.4.7",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "24.1.2",
+    "electron-winstaller": "^5.1.0"
+  }
+}
